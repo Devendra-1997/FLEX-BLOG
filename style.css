@@ -223,3 +223,84 @@ btn:hover,
   border: 1px solid grey;
   padding: 5px 10px;
 }
+/* media query */
+/* 600px-900px for ipads */
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .article {
+    width: 100%;
+  }
+  .side-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 50px;
+  }
+  .country,
+  .date {
+    /* width: 100%; */
+    flex-grow: 1;
+  }
+  .country {
+    margin-bottom: 0;
+  }
+}
+
+/* 600px mobile screen */
+@media (max-width: 600px) {
+  /* hide global message */
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .art-img {
+    width: 100%;
+  }
+  .side-links {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+  input {
+    margin: 10px 0;
+  }
+  .subs {
+    align-items: normal;
+  }
+}
+/* 0-600px is for the mobile or for small devices */
+/* 
+@media (max-width: 600px) {
+  .global {
+    background: rgb(255, 0, 174);
+    display: none;
+  }
+} */
+
+/* large monitor or tv view 992px */
+/* @media (width > 992px) {
+  header {
+    background: rgb(215, 14, 14);
+  }
+} */
+/* 
+@media () @media (600px <width< 992px) {
+  header {
+    background: yellow;
+  }
+} */
+/* 
+@media () @media (600px > width >992px) {
+  header {
+    background: yellow;
+  }
+} */
