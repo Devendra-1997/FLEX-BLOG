@@ -230,7 +230,7 @@ btn:hover,
     display: flex;
     flex-direction: column;
   }
-  .article {
+  .articles {
     width: 100%;
   }
   .side-links {
